@@ -1,15 +1,14 @@
 import React from "react";
-import analytics from "../assets/analytics.jpeg";
+import recovery from "../assets/data_recovery.png";
 
 const Backup = () => {
   return (
     <div className="w-full bg-white py-16 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
-        <img src={analytics} alt="/" className="w-[500px] mx-auto my-4" />
         <div className="flex flex-col justify-center">
           <h1 className="text-[#a6a4f8] font-bold">Data Backup and Recovery</h1>
           <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            Our Data Recovery Procedure
+            We Ensure Our Client's Data Never Gets Lost
           </h2>
           <p>
             Data backup and recovery services help businesses and organizations
@@ -27,6 +26,7 @@ const Backup = () => {
             Get Started
           </button>
         </div>
+        <img src={recovery} alt="/" className="w-[500px] mx-auto my-4" />
       </div>
     </div>
   );

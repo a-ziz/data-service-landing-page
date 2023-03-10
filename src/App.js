@@ -6,8 +6,8 @@ import Newsletter from "./section/Newsletter";
 import Cards from "./section/Cards";
 import Footer from "./components/Footer";
 import Backup from "./section/Backup";
-import Migration from "./section/Migration";
 import Policy from "./section/Policy";
+import Security from "./section/Security";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Hero />
       <Analytics />
       <Backup />
-      <Migration />
+      <Security />
       <Newsletter />
       <Cards />
       <Policy />

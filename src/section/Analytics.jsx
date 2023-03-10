@@ -1,5 +1,5 @@
 import React from "react";
-import analytics from "../assets/analytics.jpeg";
+import analytics from "../assets/data_analytics.png";
 
 const Analytics = () => {
   return (
@@ -9,7 +9,7 @@ const Analytics = () => {
         <div className="flex flex-col justify-center">
           <h1 className="text-[#a6a4f8] font-bold">Data Management</h1>
           <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            Our Data Management
+            We Provide Various Data Management Solutions
           </h2>
           <p>
             Data management involves organizing, storing, and retrieving data
