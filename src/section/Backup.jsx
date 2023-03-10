@@ -5,6 +5,11 @@ const Backup = () => {
   return (
     <div className="w-full bg-white py-16 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
+        <img
+          src={recovery}
+          alt="/"
+          className="w-[500px] mx-auto my-4 block md:hidden"
+        />
         <div className="flex flex-col justify-center">
           <h1 className="text-[#a6a4f8] font-bold">Data Backup and Recovery</h1>
           <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
@@ -26,7 +31,11 @@ const Backup = () => {
             Get Started
           </button>
         </div>
-        <img src={recovery} alt="/" className="w-[500px] mx-auto my-4" />
+        <img
+          src={recovery}
+          alt="/"
+          className="w-[500px] mx-auto my-4 hidden md:block"
+        />
       </div>
     </div>
   );

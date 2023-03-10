@@ -48,7 +48,7 @@ const Navbar = () => {
               to="cards"
               spy={true}
               smooth={true}
-              offset={-80}
+              offset={-20}
               duration={500}
             >
               Services

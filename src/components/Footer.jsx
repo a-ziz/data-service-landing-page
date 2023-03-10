@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 
 const styles = {
-  icon: "cursor-pointer hover:fill-[#a6a4f8]",
+  icon: "cursor-pointer hover:text-[#a6a4f8]",
   footerItem: "py-2 text-sm cursor-pointer hover:text-[#a6a4f8]",
 };
 
@@ -44,21 +44,21 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gray-400">Solutions</h6>
+          <h6 className="font-medium text-gray-400">Contact</h6>
           <ul>
-            <li className={styles.footerItem}>Analytics</li>
-            <li className={styles.footerItem}>Marketing</li>
-            <li className={styles.footerItem}>Commerce</li>
-            <li className={styles.footerItem}>Insights</li>
+            <li className={styles.footerItem}>Customer Service</li>
+            <li className={styles.footerItem}>Advertise</li>
+            <li className={styles.footerItem}>Blog</li>
+            <li className={styles.footerItem}>Need Help?</li>
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gray-400">Solutions</h6>
+          <h6 className="font-medium text-gray-400">About</h6>
           <ul>
-            <li className={styles.footerItem}>Analytics</li>
-            <li className={styles.footerItem}>Marketing</li>
-            <li className={styles.footerItem}>Commerce</li>
-            <li className={styles.footerItem}>Insights</li>
+            <li className={styles.footerItem}>Privacy Notice</li>
+            <li className={styles.footerItem}>Terms of Use</li>
+            <li className={styles.footerItem}>Our Company</li>
+            <li className={styles.footerItem}>Careers</li>
           </ul>
         </div>
       </div>

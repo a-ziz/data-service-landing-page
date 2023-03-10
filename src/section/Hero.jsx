@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -12,15 +13,15 @@ const Hero = () => {
           Growing with data analytics
         </p>
         <h1 className="md:text-6xl sm:text-6xl text-4xl font-bold md:py-6">
-          Grow with data.
+          Manage your data.
         </h1>
         <div className="flex justify-center items-center">
           <p className="md:text 5xl sm:text-4xl text-xl font-bold py-4">
-            Fast, flexible financing for
+            Fast, flexible data
           </p>
           <Typed
             className="md:text 5xl sm:text-4xl text-xl font-bold pl-2"
-            strings={["Saas", "SAS", "Database"]}
+            strings={["managament", "backup", "security"]}
             typeSpeed={130}
             backSpeed={150}
             loop
@@ -33,7 +34,9 @@ const Hero = () => {
           className="bg-[#a6a4f8] w-[200px] rounded-md
           my-6 mx-auto py-3 text-black text-2xl hover:bg-[#7371ef]"
         >
-          Get Started
+          <Link to="cards" spy={true} smooth={true} offset={-20} duration={500}>
+            Get Started
+          </Link>
         </button>
       </div>
     </div>
