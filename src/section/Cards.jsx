@@ -13,7 +13,7 @@ const Cards = () => {
           heading="Single User"
           pTitle="$20"
           info1="500GB storage"
-          info2="1 granted user, no more storage"
+          info2="1 granted user"
           info3="Send up to 2GB"
         />
         <Card
@@ -29,8 +29,8 @@ const Cards = () => {
           src={groupUsers}
           heading="Multiple Users"
           pTitle="$200"
-          info1="10TB storage"
-          info2="Organization group of users"
+          info1="Unlimited storage"
+          info2="Organization"
           info3="Send up to 100GB"
         />
       </div>

@@ -19,13 +19,13 @@ const Security = () => {
             database security solutions to help businesses and organizations
             ensure that their data is secure and protected.
           </p>
-          <button
+          {/* <button
             className="bg-black text-[#a6a4f8] w-[200px] rounded-md
             my-6 mx-auto md:mx-0 py-3 text-2xl
           "
           >
             Get Started
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

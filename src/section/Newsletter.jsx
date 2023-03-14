@@ -20,7 +20,7 @@ const Newsletter = () => {
             />
             <button
               className="bg-[#a6a4f8] w-[240px] rounded-md
-              my-6 ml-4 mx-auto py-2 text-black text-xl"
+              my-6 ml-4 mx-auto py-2 text-black text-xl hover:text-[black] hover:bg-[#9c7ff4]"
             >
               Notify Me
             </button>
